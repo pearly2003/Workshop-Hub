@@ -1,0 +1,28 @@
+{
+  "header": {
+    "searchPlaceholder": "Search VIN, Customer, or Plate...",
+    "changePassword": "Change Password",
+    "viewProfile": "View Profile",
+    "logout": "Logout",
+    "cancel": "Cancel",
+    "updatePassword": "Update Password",
+    "updating": "Updating...",
+    "close": "Close"
+  },
+  "jobRequestForm": {
+    "step1Title": "New Job Request",
+    "step1Desc": "Create a formal work order for vehicle maintenance or repair.",
+    "step4Title": "Vehicle Photos & Documentation",
+    "step4Desc": "Capture a complete walkaround of the vehicle to document its current condition.",
+    "step5Title": "Review & Generate Job Card",
+    "step5Desc": "Review the details before generating the final job card.",
+    "backToInspection": "Back to Inspection",
+    "discardRequest": "Discard Request",
+    "saveAsDraft": "Save as Draft",
+    "cancel": "Cancel",
+    "saveDraft": "Save Draft",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit"
+  }
+}
