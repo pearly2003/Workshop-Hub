@@ -1,0 +1,68 @@
+[
+  {
+    "item_SK": 1,
+    "user_SK": 0,
+    "itemName": "UPVC DOOR With Panel",
+    "active": true,
+    "items": "UPVC DOOR With Panel",
+    "hsnCode": "875",
+    "createdBy": "Admin",
+    "createdOn": "2026-02-12",
+    "modifiedOn": "2026-02-12",
+    "itemDetails": [
+      {
+        "itemDetailName": "UPVC DOOR With Panel",
+        "hsnCode": "875",
+        "barCode": "",
+        "batch": "",
+        "mfgdate": "",
+        "expdate": "",
+        "mrp": 15000,
+        "purchaseRate": 10000,
+        "salesRate": 14000,
+        "gst": 18,
+        "cgst": 9,
+        "sgst": 9,
+        "taxAmount": 2520,
+        "minQty": 1,
+        "maxQty": 100,
+        "availableQty": 10,
+        "isDiscntAvail": true,
+        "remarks": "Standard size"
+      }
+    ]
+  },
+  {
+    "item_SK": 2,
+    "user_SK": 0,
+    "itemName": "UPVC Sliding Window",
+    "active": true,
+    "items": "UPVC Sliding Window",
+    "hsnCode": "6756",
+    "createdBy": "Admin",
+    "createdOn": "2026-02-12",
+    "modifiedOn": "2026-02-12",
+    "itemDetails": [
+      {
+        "itemDetailName": "UPVC Sliding Window - 2 Track",
+        "hsnCode": "6756",
+        "barCode": "WIN-SL-001",
+        "batch": "B-2026-01",
+        "mfgdate": "2026-01-15",
+        "expdate": "",
+        "mrp": 8000,
+        "purchaseRate": 5000,
+        "salesRate": 7500,
+        "gst": 18,
+        "cgst": 9,
+        "sgst": 9,
+        "taxAmount": 1350,
+        "minQty": 5,
+        "maxQty": 50,
+        "availableQty": 25,
+        "isDiscntAvail": false,
+        "remarks": "Low-E Glass"
+      }
+    ]
+  }
+]

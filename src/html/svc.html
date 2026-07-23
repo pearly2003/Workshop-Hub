@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SRI VC WINDOW SOLUTIONS - TAX INVOICE</title>
+
+    <style>
+      @page {
+        size: A4;
+        margin: 6mm;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+        color: #000; /* Normal text Black */
+        background: #ffffff;
+      }
+
+      .invoice {
+        width: 210mm;
+        margin: auto;
+        border: 1px solid #666;
+      }
+
+      /* TABLE */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+      }
+
+      td,
+      th {
+        border: 1px solid #666;
+        padding: 4px 6px;
+        vertical-align: top;
+      }
+
+      .center {
+        text-align: center;
+      }
+      .right {
+        text-align: right;
+      }
+      .small {
+        font-size: 11px;
+      }
+
+      /* Bold = Dark Gray Only */
+      .bold {
+        font-weight: 700;
+        color: #333; /* Dark Gray */
+      }
+
+      .logo {
+        width: 90px;
+      }
+
+      /* Company Name Bigger + Dark Gray */
+      .header-title {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #333;
+      }
+
+      .sub-header {
+        font-size: 12px;
+      }
+
+      .product-row {
+        height: 28px;
+      }
+
+      .no-padding {
+        padding: 0 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="invoice">
+      <!-- HEADER -->
+      <table>
+        <tr>
+          <td width="70%" style="padding: 10px">
+            <div style="display: flex; align-items: center">
+              <img src="Logo.png" class="logo" />
+              <div style="margin-left: 20px">
+                <div class="header-title">
+                  SRI VC WINDOW<br />
+                  SOLUTIONS
+                </div>
+              </div>
+            </div>
+          </td>
+
+          <td width="30%" class="sub-header bold" style="padding: 10px">
+            130/24, NANDAVANA<br />
+            THOTTAM &nbsp; VAIPUR<br />
+            PUDUR,<br />
+            SUNDAKKAMUTHUR (PO)<br />
+            COIMBATORE-641 010
+          </td>
+        </tr>
+
+        <tr>
+          <td class="sub-header bold">GSTIN : 33CLRPP8403Q2Z8</td>
+          <td class="sub-header bold">
+            CELL: 99433 66918<br />
+            OFFICE: 95978 66918
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="sub-header bold">
+            EMAIL : sricwindowssolutions@gmail.com
+          </td>
+        </tr>
+      </table>
+
+      <!-- INVOICE ROW -->
+      <table>
+        <tr>
+          <td width="33%" class="bold">Quotation NO: 180</td>
+          <td width="34%" class="center bold"> TAX Quotation</td>
+          <td width="33%" class="right bold">DATE:29.01.2026</td>
+        </tr>
+      </table>
+
+      <!-- BILLING SECTION -->
+      <table>
+        <tr>
+          <td width="50%" style="padding: 0; border-bottom: 0">
+            <div
+              style="padding: 4px 6px; border-bottom: 2px solid #666"
+              class="bold"
+            >
+              BILLING DETAIL
+            </div>
+          </td>
+          <td width="50%" style="padding: 0; border-bottom: 0"></td>
+        </tr>
+
+        <tr>
+          <td width="50%" class="bold" style="border-top: 0">
+            NAME: YOUR VISION<br />
+            ADDRESS:5,SELVARATHINAM FLATS,<br />
+            NO,10 GANAPATHY NAGAR 2ND STREET,<br />
+            PORUR,CHENNAI-600116<br />
+            GSTIN :33AMXPG7662H1ZK<br />
+            STATE:TAMIL NADU
+          </td>
+
+          <td width="50%" class="bold" style="border-top: 0">
+            PLACE OF WORK CRAFTSMAN OFFICE ANNASSALAI<br />
+            (COIMBATORE CONTACT:9176813111/6374921818)<br />
+            VEHICLE NUMBER : TN39 BH 9150
+          </td>
+        </tr>
+      </table>
+
+      <!-- PRODUCT TABLE -->
+      <table>
+        <tr>
+          <th class="bold" width="6%">S.NO</th>
+          <th class="bold" width="34%">DESCRIPTION OF GOODS</th>
+          <th class="bold" width="12%">NO.OF<br />QUANTITY</th>
+          <th class="bold" width="12%">TOTAL<br />SQ.FT</th>
+          <th class="bold" width="16%">RATE<br />PER.SQFT</th>
+          <th class="bold" width="20%">AMOUNT<br />Rs.</th>
+        </tr>
+
+        <tr class="product-row">
+          <td class="center">1</td>
+          <td>UPVC DOOR WITH PANEL<br />HSN-39252000</td>
+          <td class="center">1</td>
+          <td class="center">17</td>
+          <td class="center">600</td>
+          <td class="right">10,200</td>
+        </tr>
+
+        <tr class="product-row">
+          <td class="center">2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="product-row">
+          <td class="center">3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="product-row">
+          <td class="center">4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="product-row">
+          <td class="center">5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <!-- TOTAL SECTION -->
+      <table>
+        <tr>
+          <td width="60%">
+            <div class="bold small">TOTAL INVOICE VALUE (IN WORDS)</div>
+            <div class="bold small">TWELVE THOUSAND THIRTY SIX RUPEES ONLY</div>
+            <br />
+            <div class="bold small">DECLARATION:</div>
+            <div class="small">
+              CERTIFIED THAT THE PARTICULARS GIVEN ABOVE ARE TRUE AND CORRECTED
+            </div>
+          </td>
+
+          <td width="40%" class="no-padding">
+            <table>
+              <tr>
+                <td class="bold" width="65%">SUB TOTAL</td>
+                <td width="35%" class="right">10,200</td>
+              </tr>
+              <tr>
+                <td class="bold">CGST - 9%</td>
+                <td class="right">918</td>
+              </tr>
+              <tr>
+                <td class="bold">SGST - 9%</td>
+                <td class="right">918</td>
+              </tr>
+              <tr>
+                <td class="bold">ROUND OFF</td>
+                <td class="right"></td>
+              </tr>
+              <tr>
+                <td class="bold">TOTAL AMOUNT</td>
+                <td class="right bold">12,036</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+      <!-- BANK + SIGNATURE -->
+      <table>
+        <tr>
+          <td width="60%" class="no-padding">
+            <table>
+              <tr>
+                <td width="35%" class="bold">COMPANY NAME</td>
+                <td class="bold">SRI VC WINDOW SOLUTIONS</td>
+              </tr>
+              <tr>
+                <td class="bold">BANK NAME</td>
+                <td>BANK OF INDIA</td>
+              </tr>
+              <tr>
+                <td class="bold">BANK A/C NO</td>
+                <td>82152010000628</td>
+              </tr>
+              <tr>
+                <td class="bold">BRANCH</td>
+                <td>RS PURAM COIMBATORE</td>
+              </tr>
+              <tr>
+                <td class="bold">IFSC CODE</td>
+                <td>BKID0008125</td>
+              </tr>
+            </table>
+          </td>
+
+          <td width="40%" class="center bold">FOR SRI VC WINDOW SOLUTIONS</td>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="bold">
+            RECEIVED THE GOODS IN GOOD CONDITION<br />
+            PARTY SIGNATURE WITH SEAL
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

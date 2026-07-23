@@ -1,0 +1,83 @@
+.theme-blue1 {
+  /* Primary Brand */
+  /* --color-primary: #2563eb; */
+  --color-primary: #1c1919;
+  --color-primary-dark: #161414;
+  /* --color-primary-dark: #1e40af; */
+
+  /* Primary Shades */
+  --color-primary-100: #eff6ff;
+  --color-primary-200: #dbeafe;
+  --color-primary-300: #bfdbfe;
+  --color-primary-400: #93c5fd;
+  --color-primary-500: #60a5fa;
+  --color-primary-600: #3b82f6;
+  --color-primary-700: #2563eb;
+  --color-primary-800: #1d4ed8;
+  /* Backgrounds */
+  --color-payment-total-bg: #eef4ff;
+  --bg-off-white: #f8fafc;
+  --app-gray-50: #f9fbff;
+  /* Secondary Accent */
+  --color-secondary: #a8794a;
+  --color-secondary-dark: #0891b2;
+  --color-secondary-dark-800: #0e7490;
+  --color-secondary-light: #ecfeff;
+  /* Gradients */
+  --primary-gradient-light: linear-gradient(135deg, #ffffff, #dbeafe);
+  --primary-gradient-dark: linear-gradient(135deg, #1e3a8a, #2563eb);
+  --secondary-gradient: linear-gradient(135deg, #f0fdff, #cffafe);
+  /* Neutral Colors */
+  --color-gray: #94a3b8;
+  --color-black-gray: #1e293b;
+  --color-hover-gray: #dbe4f0;
+  /* Extra Accent */
+  --tertiary-dark: #4c1d95;
+
+  /* Text */
+  --field-title-gray: #64748b;
+  --field-value-black: #0f172a;
+}
+.theme-blue {
+  /* Primary Brand — Indigo */
+  --color-primary: #4F46E5; /* Indigo 600 */
+  --color-primary-dark: #4338CA; /* Indigo 700 */
+
+  /* Primary Shades */
+  --color-primary-100: #E0E7FF;
+  --color-primary-200: #C7D2FE;
+  --color-primary-300: #A5B4FC;
+  --color-primary-400: #818CF8;
+  --color-primary-500: #6366F1;
+  --color-primary-600: #4F46E5;
+  --color-primary-700: #4338CA;
+  --color-primary-800: #3730A3;
+
+  /* Backgrounds */
+  --color-payment-total-bg: #EEF2FF;
+  --bg-off-white: #F8FAFC;
+  --app-gray-50: #F1F5F9;
+
+  /* Secondary Accent - Teal/Cyan */
+  --color-secondary: #0D9488;
+  --color-secondary-dark: #0F766E;
+  --color-secondary-dark-800: #115E59;
+  --color-secondary-light: #CCFBF1;
+
+  /* Gradients */
+  --primary-gradient-light: linear-gradient(135deg, #ffffff, #E0E7FF);
+  --primary-gradient-dark: linear-gradient(135deg, #4338CA, #4F46E5);
+  --secondary-gradient: linear-gradient(135deg, #F8FAFC, #EEF2FF);
+
+  /* Neutral Colors */
+  --color-gray: #64748B;
+  --color-black-gray: #0F172A;
+  --color-hover-gray: #E2E8F0;
+
+  /* Extra Accent */
+  --tertiary-dark: #312E81;
+
+  /* Text */
+  --field-title-gray: #475569;
+  --field-value-black: #0F172A;
+}
